@@ -6,9 +6,12 @@ interface Person {
 
 type PersonKey = keyof Person;
 
-const validateKeys = <T extends Person>(person: T, arr: (keyof T)[]) => {
+const validateKeys = <T extends Person>(
+  person: T,
+  keys: (keyof T)[]
+): boolean => {
   const objKeys: string[] = Object.keys(person);
-  return arr.every((k, i) => k === objKeys[i]);
+  return keys.every((k, i) => k === objKeys[i]);
 };
 
 const person: Person = { name: "Alice", age: 25, email: "alice@example.com" };
