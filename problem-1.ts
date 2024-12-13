@@ -1,6 +1,6 @@
 {
-  const sumArray = (arr: number[]) => {
-    let sum = 0;
+  const sumArray = (arr: number[]): number => {
+    let sum: number = 0;
     for (let i = 0; i < arr.length; i++) {
       sum = sum + arr[i];
     }
