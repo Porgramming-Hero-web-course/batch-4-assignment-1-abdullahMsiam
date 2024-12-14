@@ -4,7 +4,12 @@ By default Typescript ensure the safety from unnecessary human kind error and ty
 
 ## The contents:
 
--[What is Type Guard?](#what-is-type-guard) -[Different situation of using type guards.](#different-situation-of-using-type-guards) -[Different types of type guards](#different-types-of-type-guards) -[1. typeof Type Guard](#1-typeof-type-guard) -[2. instanceof Type Guard](#2-instanceof-type-guard) -[3. user-defined Type Guard](#3-user-defined-type-guard)
+- [What is Type Guard?](#what-is-type-guard)
+- [Different situation of using type guards.](#different-situation-of-using-type-guards)
+- [Different types of type guards](#different-types-of-type-guards)
+  - [1. typeof Type Guard](#1-typeof-type-guard)
+  - [2. instanceof Type Guard](#2-instanceof-type-guard)
+  - [3. user-defined Type Guard](#3-user-defined-type-guard)
 
 ## What is Type Guard?
 
